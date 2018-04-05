@@ -1,0 +1,43 @@
+section{
+    position: relative;
+    overflow: hidden;
+}
+
+/*--------Header Styles
+-------------------------*/
+.navbar {
+    background-color: rgba(26, 13, 13, 0.4);
+    position: sticky;
+    z-index: 3;
+    margin: 20px 20px 0 20px;
+    width: 1300px;
+}
+.nav-item {
+    margin-left: 30px;
+    color: #FCAC65;
+}
+.navbar-nav a:hover {
+    color: white;
+}
+.navbar-brand a {
+    color: #FADDC3;
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-color: rgba(250, 150, 32, 0.41);
+    z-index: 2;
+    width: 1440px;
+    height: 722px;
+    padding-top: 20px;
+}
+.image {
+    background-image: url(../images/header.png);
+    width: 1440px;
+    height: 722px;
+    position: absolute;
+    top: 0;
+    z-index: -8;
+}
